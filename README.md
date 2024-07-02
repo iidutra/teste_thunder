@@ -12,6 +12,7 @@ TaskListApi é uma API RESTful para gerenciar uma lista de tarefas. Esta aplica�
   - **Exemplo de Payload JSON**:
     ```json
     {
+      "id": "string",
       "title": "Nova Tarefa",
       "description": "Descrição da tarefa",
       "isCompleted": false
